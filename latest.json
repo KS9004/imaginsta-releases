@@ -1,0 +1,32 @@
+{
+  "version": "1.2.0",
+  "minSupportedVersion": "1.0.0",
+  "title": "Version 1.2.0: Jewellery ERP Suite & Full Bilingual Support",
+  "releaseNotes": [
+    "Jakad (जाकड़) / Approval Memo module: send jewellery on approval and convert to billing",
+    "Advance Custom Order Booking (ऑर्डर बुकिंग / बयाना) with live workshop status tracking",
+    "Shop Daily Expense Register (दुकान खर्चा) with category tracking and payment modes",
+    "Diamond 4Cs Matrix (Cut, Color, Clarity, Carat) in jewellery inventory and invoices",
+    "Comprehensive English & Hindi (हिंदी) bilingual localization across all modules",
+    "Dark mode contrast and high-legibility UI enhancements throughout the application",
+    "Zero data loss assurance: AppData storage strictly isolated across updates",
+    "Live in-app update downloading, SHA-256 verification, and automatic restart installer"
+  ],
+  "downloadUrl": "http://127.0.0.1:5050/v1.2.0/Imaginsta_POS_v1.2.0_Windows.zip",
+  "sha256Checksum": "1f3a82d1f45485d387e42a6aa73e417589b236d5bdfdf41a8f2304fd6565d894",
+  "mandatory": false,
+  "releaseDate": "2026-10-02T10:10:00Z",
+  "fileSizeBytes": 14769654,
+  "artifacts": {
+    "windows": {
+      "filename": "Imaginsta_POS_v1.2.0_Windows.zip",
+      "sha256Checksum": "1f3a82d1f45485d387e42a6aa73e417589b236d5bdfdf41a8f2304fd6565d894",
+      "fileSizeBytes": 14769654
+    },
+    "android": {
+      "filename": "Imaginsta_POS_v1.2.0.apk",
+      "sha256Checksum": "8a86a487010ca3c645dbd1eb43872668514833f4717ef7089792397bf1fe3d01",
+      "fileSizeBytes": 70304169
+    }
+  }
+}
