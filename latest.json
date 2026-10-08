@@ -1,31 +1,37 @@
 {
-  "version": "1.4.3",
+  "version": "1.7.0",
   "minSupportedVersion": "1.0.0",
-  "title": "Version 1.4.3: Master Catalog Ingestion, Subscription Checkout Browser Payment & Gateway Polish",
+  "title": "Version 1.7.0: Zero-Friction License Transfer, Modernized Feedback UI, CDC Cloud Sync & Admin Console Security",
   "releaseNotes": [
-    "Master Catalog Restoration: Auto-merged 950+ comprehensive pharmaceutical products into active catalog (1,008 total)",
-    "Load Master Tooling: Added instant Load Master action in Inventory and Bulk Import dialogs",
-    "Subscription Checkout Buttons: Fixed Pay in Browser and Copy Link with dual-key JSON compatibility and URL fallback",
-    "URL Launcher Modernization: Migrated Windows browser opening to native Flutter url_launcher with shell fallback",
-    "Optical Dynamic QR: Restored high-contrast QR generation for immediate UPI payment scanning",
-    "Elevated Windows In-Place Auto-Updater: Interactive UAC elevation handling for smooth updates in Program Files",
-    "100% Non-Destructive Invariant: Store databases, invoices, and license keys remain completely untouched in AppData"
+    "Hardened Self-Service License Transfer: Instant multi-terminal migration with 6-digit OTP verification and Google OAuth.",
+    "Multi-Terminal Seat Pool Synchronization: Dynamic boundHardwareIds allocation preserving remaining counter seats on multi-lane licenses.",
+    "Split-Brain Hardware Overwrite Protection: Prohibits retired background terminals from overwriting transferred licenses in Cloud Firestore.",
+    "Tenant Snapshot Local Restore Fallback: Offline-first tenant database restoration when transferring via OTP without cloud credentials.",
+    "Modernized Floating Feedback System: Premium animated status toasts with tactful dismiss animations across all application views.",
+    "Incremental Outbox CDC Queue Optimization: Local transaction batching reducing Firebase document writes by over 90%.",
+    "Enterprise Admin Console Security: Real-time physical terminal ping telemetry, remote emergency lockdown, and phone rate-limiting protection.",
+    "Dual Signature Verification: Authenticode-signed Windows binaries and installer, and Android APK."
   ],
-  "downloadUrl": "https://github.com/KS9004/imaginsta-releases/releases/download/v1.4.3/Imaginsta_POS_v1.4.3_Windows.zip",
-  "sha256Checksum": "adaa47c83121b05d25b67df0bf88c3422fbcfe7c556b4a8c4e736601b890c333",
+  "downloadUrl": "https://github.com/KS9004/imaginsta_store_billing/releases/download/v1.7.0/Imaginsta_POS_v1.7.0_Windows.zip",
+  "sha256Checksum": "5038f79d2ac69a5ea2bfe9b884a6452333ae1c807a9d3ff6493e4054419338c6",
   "mandatory": false,
-  "releaseDate": "2026-10-02T18:50:00Z",
-  "fileSizeBytes": 13963657,
+  "releaseDate": "2026-10-09T02:00:00Z",
+  "fileSizeBytes": 16358606,
   "artifacts": {
     "windows": {
-      "filename": "Imaginsta_POS_v1.4.3_Windows.zip",
-      "sha256Checksum": "adaa47c83121b05d25b67df0bf88c3422fbcfe7c556b4a8c4e736601b890c333",
-      "fileSizeBytes": 13963657
+      "filename": "Imaginsta_POS_v1.7.0_Windows.zip",
+      "sha256Checksum": "5038f79d2ac69a5ea2bfe9b884a6452333ae1c807a9d3ff6493e4054419338c6",
+      "fileSizeBytes": 16358606
+    },
+    "installer": {
+      "filename": "Imaginsta_Store_Billing_Setup_v1.7.0.exe",
+      "sha256Checksum": "6ddaa0ed58942f1c2b099e3483aab0027a27a99f587f5ae2799c0030ba3304c5",
+      "fileSizeBytes": 14094936
     },
     "android": {
-      "filename": "Imaginsta_POS_v1.4.3.apk",
-      "sha256Checksum": "1aac26effce9b07b792454a0237c8b7ecc0e967e2204ce47df2afbe4269da2d2",
-      "fileSizeBytes": 71131172
+      "filename": "Imaginsta_POS_v1.7.0.apk",
+      "sha256Checksum": "0ca3f7afeba53f2ee70d7944367fb51591eb2c50677cdf72f1a9e876d5d7ef62",
+      "fileSizeBytes": 74528959
     }
   }
 }
