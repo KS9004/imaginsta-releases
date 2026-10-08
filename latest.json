@@ -12,7 +12,7 @@
     "Enterprise Admin Console Security: Real-time physical terminal ping telemetry, remote emergency lockdown, and phone rate-limiting protection.",
     "Dual Signature Verification: Authenticode-signed Windows binaries and installer, and Android APK."
   ],
-  "downloadUrl": "https://github.com/KS9004/imaginsta_store_billing/releases/download/v1.7.0/Imaginsta_POS_v1.7.0_Windows.zip",
+  "downloadUrl": "https://github.com/KS9004/imaginsta-releases/releases/download/v1.7.0/Imaginsta_POS_v1.7.0_Windows.zip",
   "sha256Checksum": "5038f79d2ac69a5ea2bfe9b884a6452333ae1c807a9d3ff6493e4054419338c6",
   "mandatory": false,
   "releaseDate": "2026-10-09T02:00:00Z",
